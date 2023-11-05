@@ -81,7 +81,9 @@ Similar to the ~/.virtualenvs folder on Linux, this is a central folder for all 
     endlocal
     ```
 
-    I created a seperate script, `mkvenv-v.bat`, for this purpose because I don't always want to specify the version.
+    I've created a separate script, named mkvenv-v.bat, for this purpose because I don't always want to specify the version explicitly. If desired, you can also introduce an optional argument to the original mkvenv.bat script, with a default value pre-defined in the script.
+
+    To use it, simply run `mkvenv-v {venv_name} {python_version}`
 
 ## Contributing
 
